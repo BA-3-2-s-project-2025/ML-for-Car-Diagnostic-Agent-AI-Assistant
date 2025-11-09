@@ -1,0 +1,181 @@
+# Core Data Science & ML Libraries
+pandas>=1.5.3
+numpy>=1.21.6
+scikit-learn>=1.2.2
+scipy>=1.10.1
+joblib>=1.2.0
+
+# Data Visualization
+matplotlib>=3.7.1
+seaborn>=0.12.2
+plotly>=5.14.1
+
+# Jupyter & Development
+jupyter>=1.0.0
+notebook>=6.5.4
+ipython>=8.14.0
+ipykernel>=6.23.1
+
+# Web Framework & API
+flask>=2.3.3
+fastapi>=0.100.0
+uvicorn>=0.23.2
+python-multipart>=0.0.6
+pydantic>=2.3.0
+
+# Additional ML Utilities
+xgboost>=1.7.6
+lightgbm>=4.1.0
+catboost>=1.2.2
+
+# Feature Engineering & Preprocessing
+category-encoders>=2.6.3
+imbalanced-learn>=0.10.1
+
+# Model Serialization
+pickle-mixin>=1.0.2
+
+# HTTP Requests
+requests>=2.31.0
+
+# Database Integration
+sqlalchemy>=2.0.20
+psycopg2-binary>=2.9.7
+pymongo>=4.5.0
+
+# Configuration & Environment
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+
+# Testing & Quality Assurance
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.7.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Documentation
+sphinx>=7.1.2
+sphinx-rtd-theme>=1.3.0
+
+# Deployment & Containerization
+gunicorn>=21.2.0
+docker>=6.1.3
+
+# Performance Optimization
+numba>=0.57.1
+dask>=2023.8.1
+
+# Natural Language Processing (for text descriptions)
+nltk>=3.8.1
+textblob>=0.17.1
+
+# Statistical Analysis
+statsmodels>=0.14.0
+
+# Date/Time Handling
+python-dateutil>=2.8.2
+pytz>=2023.3
+
+# Progress Bars
+tqdm>=4.65.0
+
+# File Handling
+openpyxl>=3.1.2
+
+# Security
+cryptography>=41.0.3
+
+# Logging
+structlog>=23.1.0
+
+# API Client
+httpx>=0.24.1
+
+# Caching
+redis>=5.0.1
+
+# Monitoring & Metrics
+prometheus-client>=0.17.1
+
+# Version Checker
+pipreqs>=0.4.13
+
+# Code formatting
+isort>=5.12.0
+
+# Type hints
+typing-extensions>=4.7.1
+
+# Async programming
+asyncio>=3.4.3
+
+# Data validation
+pandera>=0.17.1
+
+# Hyperparameter tuning
+optuna>=3.3.0
+
+# Model interpretation
+shap>=0.42.1
+
+# Web scraping (for potential data updates)
+beautifulsoup4>=4.12.2
+selenium>=4.11.2
+
+# Excel integration
+xlrd>=2.0.1
+xlwt>=1.3.0
+
+# JSON handling
+ujson>=5.8.0
+
+# Parallel processing
+multiprocess>=0.70.15
+
+# Configuration management
+hydra-core>=1.3.2
+
+# Command-line interface
+click>=8.1.6
+
+# Data compression
+zstandard>=0.21.0
+
+# Image processing (for potential visual diagnostics)
+pillow>=10.0.0
+opencv-python>=4.8.1
+
+# Audio processing (for potential sound-based diagnostics)
+librosa>=0.10.1
+
+# Geospatial (for location-based analytics)
+geopandas>=0.13.2
+
+# Time series analysis
+prophet>=1.1.4
+
+# Neural networks
+torch>=2.0.1
+tensorflow>=2.13.0
+
+# API documentation
+swagger-ui-bundle>=0.0.9
+
+# Health checks
+health-check>=3.4.1
+
+# Rate limiting
+limits>=3.6.1
+
+# Authentication
+authlib>=1.2.1
+python-jose>=3.3.0
+
+# CORS support
+flask-cors>=4.0.0
+
+# Environment-specific dependencies (commented out)
+# mssql-django>=1.1.2  # For SQL Server
+# mysqlclient>=2.1.1   # For MySQL
+# cassandra-driver>=3.28.0  # For Cassandra
