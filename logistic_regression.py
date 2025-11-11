@@ -35,10 +35,6 @@ X = X.to_numpy()
 
 y = df['Failure Type']
 
-#Min max scaling
-scaler = MinMaxScaler()
-X = scaler.fit_transform(X)
-
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.10, random_state=42)
 
 model = LogisticRegression(random_state=42, class_weight='balanced',max_iter=10000)
@@ -49,21 +45,18 @@ y_pred = model.predict(X_test)
 
 #Evaluation
 accuracy = accuracy_score(y_test, y_pred)
-print("Accuracy:", accuracy)
+print("Accuracy:", accuracy *100,"%")
 print(classification_report(y_test, y_pred))
 
 cm = confusion_matrix(y_test, y_pred)
 sns.heatmap(cm, annot=True, fmt='d', cmap='Blues')
 plt.xlabel('Predicted')
 plt.ylabel('Actual')
-#plt.show()
+plt.show()
 
 
-joblib.dump(model, "model") #Create model file
-mj = joblib.load('model') #Load model file
-
-
-
+joblib.dump(model, "model")
+mj = joblib.load('model') 
 def convert(value):
     if value == "H":
         numeric_value = 0
@@ -77,8 +70,6 @@ def convert(value):
 
 def predict(values):
         return mj.predict([values])
-
-
 
 instance = [convert("M"),298.2,308.5,2678,10.7,86,1]
 
